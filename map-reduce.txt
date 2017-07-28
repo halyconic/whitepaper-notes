@@ -1,0 +1,21 @@
+http://infolab.stanford.edu/~ullman/pub/join-mr.pdf
+
+Techniques:
+    semijoins
+    judicious ordering
+    chain joins
+    Lagrangean multipliers
+        linear optimization to determine optimal join
+    
+The standard technique involves a cascade of binary joins
+
+Multi-way join
+    requires solving nonlinear equations
+        therefore, should not expect unique solutions
+    
+Star join
+    fact table joined by dimension tables
+    
+Chain join
+    most common solution
+    general case solution is different for even and odd length chains
